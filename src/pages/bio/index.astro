@@ -1,0 +1,62 @@
+---
+//import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+//import formatDate from "@/utils/formatDate";
+
+// const posts = (await getCollection("bio")).sort(function (first, second) {
+//   return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
+// });
+---
+
+<Layout title="Bio(ff_rm)">
+  <main class="flex flex-col gap-20">
+    <h1 class="text-2xl text-neutral-100">Bio</h1>
+
+    <article class="flex flex-col gap-4">
+      Federico Ragessi (1985, Río Grande/Córdoba): Artista multimedial, investigador y docente que forma parte de distintos proyectos relacionados con la creación colectiva, las tecnologías, la basura y el arte digital.
+Mis prácticas artísticas se encuentran mediadas por las tecnologías, la basura, la imagen digital y lo sonoro. Exploro formas de vinculación entre datos, objetos, imágenes, sonidos y motores vibrantes. Me interesa la relación entre arte, tecnología y como los dispositivos atraviesan todos los elementos de la vida cotidiana. Abrir las cajas negras de las tecnologías para construir y configurar una fabulación posible.
+Ha participado como artistas sonoro en Festival Santos Noise (2019 y 2018-Municipalidad de Córdoba), RED Anilla Cultural Colombia, (2018 y 2015), Cursos de verano del CMMAS (2018-México), seminario de nuevas músicas latinoamericanas (2015-CEMLA), Bienal de Internacional de composición y educación musical (2016, 2014, 2012 y 2010-UNC), Festival Internacional Monte Sónico (2016-UPC). Ha realizado diseños de sonido en obras como La carcajada de los Misteriosos (2019), Las fuerzas (2018-2019) Cuerpo Feroz (2012-2013), Desahucia (2011-2019) y otros. Ha participado de la bienal internacional de Rio Negro (2022), Tecnopoéticas en Cruce (Montevideo, Asunción Córdoba-2022), Festival Internacional de la Imagen de Manizales Colombia (2020) y otros. Ha ganado premios y apoyos del Instituto Nacional del Teatro, Medialab CCEBA, Experimentalia 11,  Fondo Nacional de las Artes, Instituto Nacional de la Música entreo otros.
+
+<img src="src/assets/bio/fedeRojo.png" alt="" />
+
+      <!-- {
+        posts.map((post) => (
+          <a
+            class="group flex flex-col gap-2 border-t border-neutral-700 py-4 transition-all hover:text-neutral-100"
+            href={`/bio/${post.slug}`}
+          >
+            <div class="flex w-full items-center justify-between">
+              <h2 class="text-lg">{post.data.title}</h2>
+
+              <div class="flex flex-row items-center gap-4">
+                <p>{formatDate(post.data.publishedAt)}</p>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  class="transition-all duration-300 group-hover:translate-x-1"
+                >
+                  <path
+                    d="M5.25 12.75L12.75 5.25"
+                    stroke="#999999"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M5.25 5.25H12.75V12.75"
+                    stroke="#999999"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <p>{post.data.description}</p>
+          </a>
+        ))
+      } -->
+
+    </article>
+  </main>
+</Layout>
