@@ -6,9 +6,8 @@ slug: "AsciiArt"
 isPublish: true
 ---
 
-## Imagenes
-
-Estas imagenes exploración el cambio de formato de la imagenes para luego ser vuelta a reconstruir a imagen. 
+## Caer fuera del Código
+Serie de imágenes digitales, resultado de la experimentación con código ascii. El proceso consiste en tomar imagenes reducirles su calidad, convertirlas a ascii, experimentar en cuanto a su color y reconvertirlas a imagen nuevamente. El resultado exhibe una exploración del pixel de la imagen, como alterarlo y modificarlo para adentrase en la concepción digital del archivo de imagen.
 
 ![](src/assets/ascii/ascii3.png)
 

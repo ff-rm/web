@@ -14,7 +14,7 @@ type Presentation = {
 const presentation: Presentation = {
   mail: "federicoragessi@disroot.org",
   title: "Federico Ragessi",
-  profile: "/perfil.jpg",
+  profile: "/perfil1.jpg",
   description:
     "Artista multimedial, investigador y docente",
   socials: [
